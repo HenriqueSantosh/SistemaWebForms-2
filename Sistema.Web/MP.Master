@@ -22,7 +22,8 @@
 <body>  
     <nav class="navbar bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand">Sistema Web</a>
+          <a class="navbar-brand" href = "~/Pages/Index.aspx" runat="server">Sistema Web Home</a>
+
       </div>
    </nav>
    <asp:ContentPlaceHolder ID="body" runat="server">
